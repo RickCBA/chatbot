@@ -1652,12 +1652,14 @@ body[data-theme='dark'] .hljs-deletion {
 
   #n8n-chat-widget-2 .chat-footer {
     border-width: 2px;
-    margin-bottom: 40%;
+    margin-bottom: 20%;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border-radius: 24px;
   }
 
   #n8n-chat-widget-2 .chat-message {
     max-width: 100%;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.6;
   }
 
@@ -1680,8 +1682,10 @@ body[data-theme='dark'] .hljs-deletion {
     bottom: 0.5rem;
   }
   .chat-inputs textarea[data-v-2a7fb1c3] {
-    font-size: 0.95rem;
-    padding: 0.6rem 0.8rem;
+    font-size: 1.1rem;
+    min-height: 48px;
+    padding: 0.8rem 1rem;
+    border-radius: 18px;
   }
   .chat-button {
     width: 90vw;
@@ -1695,7 +1699,7 @@ body[data-theme='dark'] .hljs-deletion {
   #n8n-chat-widget-2 .chat-window-toggle {
     transform: translateX(-50%);
     transform: translateY(-50%);
-    bottom: 1.5rem;
+    bottom: 1rem;
     right: 1rem;
   }
 
@@ -1705,6 +1709,35 @@ body[data-theme='dark'] .hljs-deletion {
     padding-top: 14px;
     padding-bottom: 14px;
   }
+
+    #n8n-chat-widget-2 .chat-footer button {
+    width: 56px;
+    height: 56px;
+    font-size: 2rem;
+    border-radius: 50%;
+    right: 0.2rem;
+    top: 0.2rem;
+    bottom: 0.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  }
+
+  #n8n-chat-widget-2 .chat-message {
+    font-size: 1rem;
+    padding: 10px 12px;
+    border-radius: 18px;
+  }
+
+  #n8n-chat-widget-2 .my-canned-bot-message .canned-messages-grid {
+    gap: 10px 0;
+    padding: 0 0.5rem;
+  }
+
+  #n8n-chat-widget-2 .my-canned-bot-message .canned-messages-grid button {
+    font-size: 1rem;
+    padding: 12px 8px;
+    border-radius: 18px;
+  }
+  
 }
 
 /* 320px Media Queries */
